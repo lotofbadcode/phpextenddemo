@@ -1,0 +1,44 @@
+[
+    {
+        "name": "lotofbadcode/phpextend",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lotofbadcode/phpextend.git",
+            "reference": "3604a54d7a403f6f164c988e380938e66600156b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/lotofbadcode/phpextend/3604a54d7a403f6f164c988e380938e66600156b.zip",
+            "reference": "3604a54d7a403f6f164c988e380938e66600156b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2017-05-09 01:03:38",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "lotofbadcode\\phpextend\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "代码庸医",
+                "email": "3359964266@qq.com"
+            }
+        ],
+        "description": "php library",
+        "keywords": [
+            "library",
+            "php"
+        ]
+    }
+]

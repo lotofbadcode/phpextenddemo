@@ -1,0 +1,5 @@
+{
+    "require": {
+        "lotofbadcode/phpextend": "^1.0"
+    }
+}

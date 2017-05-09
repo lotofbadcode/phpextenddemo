@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "5f51d5166f5fca8b3bae628039a3e2e8",
+    "content-hash": "e6ad960498e0e4efd8154ed5d0cc151f",
+    "packages": [
+        {
+            "name": "lotofbadcode/phpextend",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lotofbadcode/phpextend.git",
+                "reference": "3604a54d7a403f6f164c988e380938e66600156b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/lotofbadcode/phpextend/3604a54d7a403f6f164c988e380938e66600156b.zip",
+                "reference": "3604a54d7a403f6f164c988e380938e66600156b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "lotofbadcode\\phpextend\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "代码庸医",
+                    "email": "3359964266@qq.com"
+                }
+            ],
+            "description": "php library",
+            "keywords": [
+                "library",
+                "php"
+            ],
+            "time": "2017-05-09 01:03:38"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
