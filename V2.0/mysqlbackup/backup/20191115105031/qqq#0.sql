@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS `qqq`;
+CREATE TABLE `qqq` (
+  `id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
