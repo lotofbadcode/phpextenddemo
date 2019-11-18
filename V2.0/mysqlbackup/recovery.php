@@ -2,9 +2,10 @@
 set_time_limit(0);
 include dirname(__FILE__) . '/../vendor/autoload.php';
 
-use lotofbadcode\phpextend\databackup\mysql\Recovery;
 
-$recovery = new Recovery('127.0.0.1:3306', 'test', 'root', '');
+use lotofbadcode\phpextend\databackup\RecoveryFactory;
+
+$recovery = RecoveryFactory::instance('mysql', '127.0.0.1:3306', 'qjfsonar', 'root', 'root');
 $recovery->setSqlfiledir(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'backup');
 
 
